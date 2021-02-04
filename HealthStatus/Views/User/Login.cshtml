@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<form action="/User/Login" method="post">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input required type="text" class="form-control" name="Email" />
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input required
+               type="password"
+               class="form-control"
+               name="Password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+   
+    <p class="options">
+        Do not Have an account
+        <a  href="@Url.Action("Registration","User")" style="text-decoration:none;"  <span class="spanClick" onclick="handleSignUpclick()">Sign Up</span></a>
+    </p>
+</form>

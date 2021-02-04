@@ -1,0 +1,6 @@
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.ViewModels\bin\Debug\HealthStatus.ViewModels.dll
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.ViewModels\bin\Debug\HealthStatus.ViewModels.pdb
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.ViewModels\obj\Debug\HealthStatus.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.ViewModels\obj\Debug\HealthStatus.ViewModels.dll
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.ViewModels\obj\Debug\HealthStatus.ViewModels.pdb
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.ViewModels\obj\Debug\HealthStatus.ViewModels.csprojAssemblyReference.cache

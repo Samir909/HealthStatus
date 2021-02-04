@@ -1,0 +1,51 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="~/Content/CSS/style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous" />
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="healthContent">
+            <form  action="/User/MainTask" method="post">
+                <div class="mb-3 form-check">
+                    @{ 
+                        var date = DateTime.Now;
+                        var shortDate = date.ToShortDateString();
+                    }
+
+                    <input type="datetime"  class="form-control" name="CurrentDate" value="@shortDate" } />
+
+                    <input type="datetime" style="display:none" class="form-control" name="Uid" value="@Session["CurrentUserID"]" } />
+
+
+                    <select class="form-select"
+                            name="CurrentStatus"
+                            aria-label="Default select example">
+                        <option selected value="NULL">Open this select menu</option>
+                        <option value="sick">Sick</option>
+                        <option value="good">Good</option>
+                        <option value="very good">Very Good</option>
+                    </select>
+
+                    <input type="text" class="form-control" name="Comments" placeholder="Write your health condition in details" />
+
+
+
+
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+ 
+</body>
+</html>

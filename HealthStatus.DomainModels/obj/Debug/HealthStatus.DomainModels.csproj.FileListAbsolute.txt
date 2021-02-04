@@ -1,0 +1,14 @@
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\HealthStatus.DomainModels.dll.config
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\HealthStatus.DomainModels.dll
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\HealthStatus.DomainModels.pdb
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\EntityFramework.dll
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\EntityFramework.xml
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\obj\Debug\HealthStatus.DomainModels.csprojAssemblyReference.cache
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\obj\Debug\HealthStatus.DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\obj\Debug\HealthStatus.DomainModels.csproj.CopyComplete
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\obj\Debug\HealthStatus.DomainModels.dll
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\obj\Debug\HealthStatus.DomainModels.pdb
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\HealthStatus.ViewModels.dll
+C:\Users\BS499\source\repos\HealthStatus\HealthStatus.DomainModels\bin\Debug\HealthStatus.ViewModels.pdb

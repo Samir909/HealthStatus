@@ -1,0 +1,36 @@
+﻿.mainContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  min-width: 400px;
+  min-height: 400px;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+#registrationForm {
+  display: none;
+}
+.spanClick {
+  color: blue;
+  font-weight: 700;
+}
+.spanClick:hover {
+  cursor: pointer;
+}
+.healthContent {
+  min-width: 400px;
+
+  background-color: whitesmoke;
+  padding: 30px;
+}
+.form-check {
+  padding-left: 0px !important;
+}
+
+
+/*------------------------------------------rating-----------------------------------------------------*/

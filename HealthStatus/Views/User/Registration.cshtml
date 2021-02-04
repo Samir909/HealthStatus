@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "User";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/CSS/style.css" rel="stylesheet" />
+    @*<link rel="stylesheet" href="style.css" />*@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous" />
+</head>
+<body>
+    
+          
+
+            <form  action="/User/Registration" method="post" >
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input required
+                           type="text"
+                           class="form-control"
+                           id="exampleInputEmail1"
+                           name="Eamil" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input required
+                           type="password"
+                           class="form-control"
+                           name="Password" />
+                </div>
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirm Password</label>
+                    <input required
+                           type="password"
+                           class="form-control"
+                           id="confirmPassword"
+                           name="confirmPassword" />
+                </div>
+                <button  class="btn btn-primary">Submit</button>
+                <p class="options">
+                    Already Have an account
+                    <a href="@Url.Action("Login","User")" style="text-decoration:none;" <span onclick="handleLoginclick()" class="spanClick">Login</span></a>
+                </p>
+            </form>
+       
+    @*<script src="script.js"></script>*@
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/script.js"></script>
+</body>
+</html>
+
